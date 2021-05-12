@@ -2,7 +2,7 @@ package com.company;
 
 public interface Alarm {
 
-   // public Logger logger = new Logger();
+    public ConsoleLogger logger = new ConsoleLogger()  ;
 
 
 
