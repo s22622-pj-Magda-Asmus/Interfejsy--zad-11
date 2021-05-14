@@ -1,0 +1,40 @@
+Zdarzenie
+ com.company.EventSource@31221be2
+Posiada poziom dotkliwości report
+oraz komunikat Wszystko OK, sejf otwarty
+Zdarzenie
+ com.company.EventSource@377dca04
+Posiada poziom dotkliwości report
+oraz komunikat Wszystko OK, sejf otwarty
+Zdarzenie
+ com.company.EventSource@7daf6ecc
+Posiada poziom dotkliwości report
+oraz komunikat Wszystko OK, sejf otwarty
+Zdarzenie
+ com.company.EventSource@377dca04
+Posiada poziom dotkliwości report
+oraz komunikat Wszystko OK, sejf otwarty
+Zdarzenie
+ com.company.EventSource@7daf6ecc
+Posiada poziom dotkliwości report
+oraz komunikat Wszystko OK, sejf otwarty
+Zdarzenie
+ com.company.EventSource@7daf6ecc
+Posiada poziom dotkliwości report
+oraz komunikat Wszystko OK, sejf otwarty
+Zdarzenie
+ com.company.EventSource@728938a9
+Posiada poziom dotkliwości report
+oraz komunikat Wszystko OK, sejf otwarty
+Zdarzenie
+ com.company.EventSource@21b8d17c
+Posiada poziom dotkliwości report
+oraz komunikat Wszystko OK, sejf otwarty
+Zdarzenie
+ com.company.EventSource@7daf6ecc
+Posiada poziom dotkliwości error
+oraz komunikat IJO IJO IJO, POLICJA już jedzie
+Zdarzenie
+ com.company.EventSource@728938a9
+Posiada poziom dotkliwości report
+oraz komunikat Wszystko OK, sejf otwarty

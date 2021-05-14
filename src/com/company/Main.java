@@ -1,36 +1,33 @@
 package com.company;
-import java.awt.event.PaintEvent;
-import java.io.*;
 import java.util.*;
-
+import java.io.IOException;
 public class Main {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException{
 
-
+        String pinWpisany;
         //Pobieranie pinu od użytkownika
-        Scanner in = new Scanner(System.in);
-        String pinWpisany = in.nextLine();
+        Scanner odczyt = new Scanner(System.in);
+        boolean koniec = false;
 
-//        //stworzenie obiektu klasy PinEvent z pinem przekazywanym przez użytkownika
-//        PinEvent pin1 = new PinEvent(pinWpisany);
-//        System.out.println(pin1.getSafe());
+        //Petla która pozwala wielokrotnie wprowadzać pin , lub wyłaczyć program za pomocą "stop"
+        do {
+            System.out.println("\nWprowadz PIN ");
+            pinWpisany = odczyt.nextLine();
 
+            if (pinWpisany.equals("stop"))
+                koniec = true;
 
-        Safe numer1 = new Safe();
-        SoundAlarm dzwiekowy = new SoundAlarm();
-        numer1.addAlarm(dzwiekowy);
-        numer1.enterPin(pinWpisany);
-//        numer1.addAlarm(poiuy);
+            else {
+                Safe numer1 = new Safe();
+                SoundAlarm dzwiekowy = new SoundAlarm();
+                numer1.addAlarm(dzwiekowy);
+                numer1.enterPin(pinWpisany);
+               // numer1.zapis.close();
+            }
+        }
+        while (!koniec);
 
-
-//        // stworzenie liczby int na podstawie przekazanego prez użytkownika Stringu
-//         int pinLiczbowy = Integer.parseInt(pinWpisany);
-//        System.out.println(pinLiczbowy);
-
-
-
-
-
+        System.out.println("Koniec programu");
     }
 }

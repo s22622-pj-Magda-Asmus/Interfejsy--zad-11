@@ -8,6 +8,6 @@ public interface Logger {
         public Severity logLevel = Severity.ERROR ;
 
 
-        public void LogMessage(Severity dotkliwosc/*,EventSource zdarzenie*/,String komunikat) throws FileNotFoundException;
+        public void LogMessage(Severity dotkliwosc,EventSource zdarzenie,String komunikat) throws FileNotFoundException;
 
 }

@@ -9,8 +9,8 @@ public class ConsoleLogger implements Logger{
     public ConsoleLogger(){
     }
 
-    public void LogMessage(Severity dotkliwosc, /*EventSource zdarzenie ,*/ String komunikat) {
-        System.out.println("Zdarzenie: " /*+ zdarzenie*/ + "\nPosiada poziom dotkliwości:  " + dotkliwosc + "\nOraz komunikat:  " + komunikat );
+    public void LogMessage(Severity dotkliwosc, EventSource zdarzenie , String komunikat) {
+        System.out.println("Zdarzenie : " + zdarzenie + "\nPosiada poziom dotkliwości:  " + dotkliwosc + "\nOraz komunikat:  " + komunikat );
     }
 
 }
